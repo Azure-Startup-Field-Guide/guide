@@ -7,6 +7,8 @@ The order matters. Credit activation begins with an individual Microsoft
 account, but a production environment should not remain dependent on one
 person.
 
+![Six-step Azure startup journey from application to a supportable first environment](../../static/img/first-48-hours-journey.svg)
+
 ## Outcome
 
 By the end of this journey you should have:

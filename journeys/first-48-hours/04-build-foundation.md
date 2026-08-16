@@ -6,6 +6,8 @@ Choose the simplest managed platform that satisfies a concrete requirement.
 Do not begin with Kubernetes, private networking, or an enterprise-scale
 landing zone solely because you expect the company to grow.
 
+![Decision tree for choosing Azure Kubernetes Service, Container Apps, Functions, or App Service](../../static/img/platform-choice.svg)
+
 ## Match the workload to the platform
 
 | Workload need | Start by evaluating |

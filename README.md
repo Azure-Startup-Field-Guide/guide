@@ -28,15 +28,7 @@ journeys and calls out the decisions that are difficult to undo later.
 
 ## The first 48 hours
 
-```mermaid
-flowchart LR
-    A[Apply with a personal Microsoft account] --> B[Activate the sponsored subscription]
-    B --> C[Create a second administrator]
-    C --> D[Add and verify the company domain]
-    D --> E[Set cost guardrails]
-    E --> F[Choose the smallest suitable platform]
-    F --> G[Deploy with identity, IaC, and observability]
-```
+![Six-step Azure startup journey from application to a supportable first environment](static/img/first-48-hours-journey.svg)
 
 1. [Understand the journey](journeys/first-48-hours/README.md)
 2. [Apply and activate](journeys/first-48-hours/01-apply-and-activate.md)

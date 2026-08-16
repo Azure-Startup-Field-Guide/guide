@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="Segoe UI, Arial, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">Route an Azure startup problem to the right support channel</title>
+  <desc id="desc">A routing diagram maps application access, billing and quota, architecture guidance, technical questions, and incidents to the appropriate Microsoft support path.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666666"/>
+    </marker>
+    <style>
+      .title { fill: #1a3a5c; }
+      .label { fill: #222222; }
+      .detail { fill: #555555; }
+      .line { fill: none; stroke: #666666; stroke-width: 1.7; marker-end: url(#arrow); }
+      @media (prefers-color-scheme: dark) {
+        .title { fill: #c9e2ff; }
+        .label { fill: #f2f2f2; }
+        .detail { fill: #d0d0d0; }
+        .line { stroke: #b8b8b8; }
+      }
+    </style>
+  </defs>
+
+  <text x="340" y="28" text-anchor="middle" font-size="16" font-weight="bold" class="title">Route the problem, do not recreate the environment</text>
+  <text x="340" y="47" text-anchor="middle" font-size="10" class="detail">Use the channel that owns the problem you are trying to solve</text>
+
+  <rect x="245" y="65" width="190" height="58" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="340" y="89" text-anchor="middle" font-size="12" font-weight="bold" class="label">What kind of help do you need?</text>
+  <text x="340" y="108" text-anchor="middle" font-size="10" class="detail">Capture the exact error and business impact</text>
+
+  <path d="M 290 123 L 100 165" class="line"/>
+  <path d="M 315 123 L 230 165" class="line"/>
+  <path d="M 340 123 V 165" class="line"/>
+  <path d="M 365 123 L 450 165" class="line"/>
+  <path d="M 390 123 L 580 165" class="line"/>
+
+  <rect x="20" y="170" width="145" height="68" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="92" y="194" text-anchor="middle" font-size="11" font-weight="bold" class="label">Application or portal</text>
+  <text x="92" y="211" text-anchor="middle" font-size="10" class="detail">Account does not exist or</text>
+  <text x="92" y="225" text-anchor="middle" font-size="10" class="detail">program access is blocked</text>
+
+  <rect x="177" y="170" width="145" height="68" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="249" y="194" text-anchor="middle" font-size="11" font-weight="bold" class="label">Credit or benefit</text>
+  <text x="249" y="211" text-anchor="middle" font-size="10" class="detail">Activation, entitlement,</text>
+  <text x="249" y="225" text-anchor="middle" font-size="10" class="detail">or billing profile</text>
+
+  <rect x="335" y="170" width="145" height="68" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="407" y="194" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure service issue</text>
+  <text x="407" y="211" text-anchor="middle" font-size="10" class="detail">Error, quota, billing,</text>
+  <text x="407" y="225" text-anchor="middle" font-size="10" class="detail">or urgent impact</text>
+
+  <rect x="492" y="170" width="168" height="68" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="576" y="194" text-anchor="middle" font-size="11" font-weight="bold" class="label">Architecture or optimization</text>
+  <text x="576" y="211" text-anchor="middle" font-size="10" class="detail">How to build, migrate,</text>
+  <text x="576" y="225" text-anchor="middle" font-size="10" class="detail">scale, or improve</text>
+
+  <path d="M 92 238 V 282" class="line"/>
+  <path d="M 249 238 V 282" class="line"/>
+  <path d="M 407 238 V 282" class="line"/>
+  <path d="M 576 238 V 282" class="line"/>
+
+  <rect x="20" y="287" width="145" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="92" y="311" text-anchor="middle" font-size="11" font-weight="bold" class="label">Program support</text>
+  <text x="92" y="330" text-anchor="middle" font-size="10" class="detail">Use the pre-account</text>
+  <text x="92" y="344" text-anchor="middle" font-size="10" class="detail">support path</text>
+
+  <rect x="177" y="287" width="145" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="249" y="311" text-anchor="middle" font-size="11" font-weight="bold" class="label">Get Program Support</text>
+  <text x="249" y="330" text-anchor="middle" font-size="10" class="detail">In the applicable startup</text>
+  <text x="249" y="344" text-anchor="middle" font-size="10" class="detail">portal experience</text>
+
+  <rect x="335" y="287" width="145" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="407" y="311" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure support request</text>
+  <text x="407" y="330" text-anchor="middle" font-size="10" class="detail">Include IDs, timestamps,</text>
+  <text x="407" y="344" text-anchor="middle" font-size="10" class="detail">reproduction, and impact</text>
+
+  <rect x="492" y="287" width="168" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="576" y="311" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure Advisor</text>
+  <text x="576" y="330" text-anchor="middle" font-size="10" class="detail">Request technical guidance</text>
+  <text x="576" y="344" text-anchor="middle" font-size="10" class="detail">through the startup experience</text>
+
+  <rect x="160" y="390" width="360" height="28" rx="14" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+  <text x="340" y="408" text-anchor="middle" font-size="10" font-weight="bold" class="label">Public, non-sensitive technical question? Microsoft Q&amp;A: Azure Startups</text>
+</svg>

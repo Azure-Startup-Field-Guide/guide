@@ -2,6 +2,8 @@
 
 Do not wait until an outage to learn which team handles which problem.
 
+![Routing diagram for Microsoft for Startups program, Azure support, advisor, and community help](../../static/img/support-routing.svg)
+
 ## Support map
 
 | Need | Route |

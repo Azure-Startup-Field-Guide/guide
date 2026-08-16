@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 455" font-family="Segoe UI, Arial, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">Choose the smallest Azure platform that meets the workload requirements</title>
+  <desc id="desc">A decision tree routes web applications, event-driven tasks, containers, and explicit Kubernetes requirements to suitable starting services.</desc>
+  <defs>
+    <marker id="green-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="red-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+    <style>
+      .title { fill: #1a3a5c; }
+      .label { fill: #222222; }
+      .detail { fill: #555555; }
+      .yes { fill: none; stroke: #2e7d32; stroke-width: 2; marker-end: url(#green-arrow); }
+      .no { fill: none; stroke: #c62828; stroke-width: 2; marker-end: url(#red-arrow); }
+      @media (prefers-color-scheme: dark) {
+        .title { fill: #c9e2ff; }
+        .label { fill: #f2f2f2; }
+        .detail { fill: #d0d0d0; }
+      }
+    </style>
+  </defs>
+
+  <text x="340" y="27" text-anchor="middle" font-size="16" font-weight="bold" class="title">Choose the smallest platform that fits</text>
+  <text x="340" y="46" text-anchor="middle" font-size="10" class="detail">Start with requirements, not the service you expect to need someday</text>
+
+  <rect x="190" y="65" width="300" height="54" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="340" y="88" text-anchor="middle" font-size="12" font-weight="bold" class="label">Do you require the Kubernetes API, operators,</text>
+  <text x="340" y="104" text-anchor="middle" font-size="12" font-weight="bold" class="label">specialized scheduling, or an existing K8s platform?</text>
+
+  <path d="M 250 119 L 135 165" class="yes"/>
+  <text x="187" y="137" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 430 119 L 545 165" class="no"/>
+  <text x="483" y="137" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+
+  <rect x="35" y="170" width="200" height="70" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="135" y="196" text-anchor="middle" font-size="13" font-weight="bold" class="label">Azure Kubernetes Service</text>
+  <text x="135" y="216" text-anchor="middle" font-size="10" class="detail">Accept the operational model</text>
+  <text x="135" y="230" text-anchor="middle" font-size="10" class="detail">because requirements justify it</text>
+
+  <rect x="445" y="170" width="200" height="54" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
+  <text x="545" y="193" text-anchor="middle" font-size="12" font-weight="bold" class="label">Is the workload containerized?</text>
+  <text x="545" y="210" text-anchor="middle" font-size="10" class="detail">Without a direct Kubernetes need</text>
+
+  <path d="M 505 224 L 430 270" class="yes"/>
+  <text x="462" y="241" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 585 224 L 610 270" class="no"/>
+  <text x="602" y="241" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+
+  <rect x="330" y="275" width="200" height="70" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="430" y="301" text-anchor="middle" font-size="13" font-weight="bold" class="label">Azure Container Apps</text>
+  <text x="430" y="321" text-anchor="middle" font-size="10" class="detail">Managed container platform</text>
+  <text x="430" y="335" text-anchor="middle" font-size="10" class="detail">without cluster operations</text>
+
+  <rect x="545" y="275" width="120" height="54" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
+  <text x="605" y="298" text-anchor="middle" font-size="11" font-weight="bold" class="label">Event-driven</text>
+  <text x="605" y="314" text-anchor="middle" font-size="11" font-weight="bold" class="label">or scheduled?</text>
+
+  <path d="M 585 329 L 535 375" class="yes"/>
+  <text x="553" y="346" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 625 329 L 640 375" class="no"/>
+  <text x="638" y="347" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+
+  <rect x="420" y="380" width="150" height="58" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text x="495" y="405" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure Functions</text>
+  <text x="495" y="423" text-anchor="middle" font-size="10" class="detail">Events, jobs, and schedules</text>
+
+  <rect x="585" y="380" width="80" height="58" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text x="625" y="405" text-anchor="middle" font-size="11" font-weight="bold" class="label">App</text>
+  <text x="625" y="420" text-anchor="middle" font-size="11" font-weight="bold" class="label">Service</text>
+
+  <rect x="35" y="275" width="245" height="142" rx="10" fill="#f5f5f5" stroke="#666666" stroke-width="1.5"/>
+  <text x="157" y="300" text-anchor="middle" font-size="12" font-weight="bold" class="label">For every path</text>
+  <text x="55" y="325" font-size="10" class="detail">1. Verify region, quota, and compliance</text>
+  <text x="55" y="346" font-size="10" class="detail">2. Provision with infrastructure as code</text>
+  <text x="55" y="367" font-size="10" class="detail">3. Use managed identity where supported</text>
+  <text x="55" y="388" font-size="10" class="detail">4. Add telemetry, rollback, and an owner</text>
+  <text x="55" y="409" font-size="10" class="detail">5. Record the trigger for revisiting the choice</text>
+</svg>

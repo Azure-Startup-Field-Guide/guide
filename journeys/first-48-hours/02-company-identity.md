@@ -8,6 +8,8 @@ workloads.
 
 This is the most important step in the guide.
 
+![Azure identity model showing personal credit activation transitioning to company-backed control](../../static/img/company-identity-model.svg)
+
 ## Complete these actions
 
 ### 1. Create a second administrative account
