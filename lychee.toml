@@ -9,6 +9,7 @@ exclude = [
   "https://github.com/Azure-Startup-Field-Guide/guide/issues/new.*",
   "https://portal.azure.com/.*",
   "https://portal.startups.microsoft.com/.*",
-  "https://www.reddit.com/.*"
+  "https://www.reddit.com/.*",
+  # Tech Community returns inconsistent 404/503 responses to automated clients.
+  "https://techcommunity.microsoft.com/.*"
 ]
-
