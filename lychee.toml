@@ -1,0 +1,14 @@
+cache = true
+max_cache_age = "1d"
+max_retries = 2
+retry_wait_time = 2
+timeout = 30
+user_agent = "Mozilla/5.0 (compatible; AzureStartupFieldGuideLinkChecker/1.0)"
+accept = ["200", "204", "206", "429"]
+exclude = [
+  "https://github.com/Azure-Startup-Field-Guide/guide/issues/new.*",
+  "https://portal.azure.com/.*",
+  "https://portal.startups.microsoft.com/.*",
+  "https://www.reddit.com/.*"
+]
+

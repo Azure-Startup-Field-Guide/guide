@@ -1,0 +1,43 @@
+name: Report stage-specific feedback
+description: Tell us where guidance did not fit your startup stage or constraints.
+title: "[Stage feedback]: "
+labels:
+  - feedback
+body:
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Startup stage
+      options:
+        - Pre-launch
+        - MVP or seed
+        - Product-market fit
+        - Series A
+        - Series B or later
+        - Other or not disclosed
+    validations:
+      required: true
+
+  - type: input
+    id: guide
+    attributes:
+      label: Guide page
+      placeholder: "Paste the page URL or path"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What constraints did you have?
+      description: Do not include customer data, credentials, private architecture, or support details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened and what would have helped?
+    validations:
+      required: true
+

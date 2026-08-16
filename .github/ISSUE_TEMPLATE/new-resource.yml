@@ -1,0 +1,48 @@
+name: Propose a resource
+description: Suggest a resource that closes a specific gap in a startup journey.
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source type
+      options:
+        - Official Microsoft
+        - Microsoft community
+        - Independent community
+    validations:
+      required: true
+
+  - type: input
+    id: audience
+    attributes:
+      label: Persona and startup stage
+      placeholder: "Example: Seed-stage CTO setting up the first production environment"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Explain why the canonical resources do not already cover this need.
+    validations:
+      required: true
+
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Caveats, freshness, and affiliations
+      description: Disclose ownership, employment, sponsorship, referral, or commercial relationships.
+    validations:
+      required: true
+

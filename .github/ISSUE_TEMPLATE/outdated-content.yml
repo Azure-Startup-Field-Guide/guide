@@ -1,0 +1,29 @@
+name: Report outdated content
+description: Flag guidance that no longer matches the official product or program experience.
+title: "[Outdated]: "
+labels:
+  - outdated
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Guide page
+    validations:
+      required: true
+
+  - type: textarea
+    id: mismatch
+    attributes:
+      label: What changed?
+      description: Include the current behavior and retrieval date.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Current official source
+      placeholder: "https://learn.microsoft.com/..."
+    validations:
+      required: true
+
