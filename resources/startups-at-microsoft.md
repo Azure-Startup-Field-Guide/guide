@@ -54,9 +54,8 @@ operational capability are actual requirements.
 ## I am moving an AI workload toward production
 
 1. [Azure AI Foundry: from zero to production](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/azure-ai-foundry-from-zero-to-production/4542960)
-2. [When and why startups add a Gateway in front of Azure AI Foundry](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/when-and-why-startups-add-a-gateway-in-front-of-azure-ai-foundry/4489490)
-3. [Production-grade API Gateway patterns for Microsoft Foundry](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/production-grade-api-gateway-patterns-for-microsoft-foundry/4490494)
-4. [Monitoring Azure OpenAI without switching from your existing observability platform](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/monitoring-azure-openai-without-switching-from-your-existing-observability-platf/4458898)
+2. [Production-grade API Gateway patterns for Microsoft Foundry](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/production-grade-api-gateway-patterns-for-microsoft-foundry/4490494)
+3. [Monitoring Azure OpenAI without switching from your existing observability platform](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/monitoring-azure-openai-without-switching-from-your-existing-observability-platf/4458898)
 
 Product names, model availability, quotas, deployment types, pricing, and
 Preview status change frequently. Verify every implementation decision against
