@@ -29,46 +29,52 @@
   <path d="M 245 225 H 205" class="connector"/>
 
   <rect x="15" y="68" width="190" height="74" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
-  <circle cx="35" cy="88" r="13" fill="#6c8ebf"/>
-  <text x="35" y="92" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">1</text>
-  <text x="118" y="91" text-anchor="middle" font-size="12" font-weight="bold" class="label">Apply and activate</text>
-  <text x="110" y="111" text-anchor="middle" font-size="10" class="detail">Use the required personal</text>
-  <text x="110" y="125" text-anchor="middle" font-size="10" class="detail">Microsoft account</text>
+  <circle cx="43" cy="91" r="13" fill="#6c8ebf"/>
+  <text x="43" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">1</text>
+  <text x="132" y="85" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Apply and</text>
+  <text x="132" y="99" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">activate</text>
+  <text x="132" y="118" text-anchor="middle" font-size="10" class="detail">Use the required personal</text>
+  <text x="132" y="132" text-anchor="middle" font-size="10" class="detail">Microsoft account</text>
 
   <rect x="245" y="68" width="190" height="74" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
-  <circle cx="265" cy="88" r="13" fill="#d6b656"/>
-  <text x="265" y="92" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">2</text>
-  <text x="350" y="91" text-anchor="middle" font-size="12" font-weight="bold" class="label">Establish company identity</text>
-  <text x="340" y="111" text-anchor="middle" font-size="10" class="detail">Second administrator and</text>
-  <text x="340" y="125" text-anchor="middle" font-size="10" class="detail">verified company domain</text>
+  <circle cx="273" cy="91" r="13" fill="#d6b656"/>
+  <text x="273" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">2</text>
+  <text x="362" y="85" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Establish company</text>
+  <text x="362" y="99" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">identity</text>
+  <text x="362" y="118" text-anchor="middle" font-size="10" class="detail">Second administrator and</text>
+  <text x="362" y="132" text-anchor="middle" font-size="10" class="detail">verified company domain</text>
 
   <rect x="475" y="68" width="190" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <circle cx="495" cy="88" r="13" fill="#82b366"/>
-  <text x="495" y="92" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">3</text>
-  <text x="580" y="91" text-anchor="middle" font-size="12" font-weight="bold" class="label">Set cost guardrails</text>
-  <text x="570" y="111" text-anchor="middle" font-size="10" class="detail">Owner, tags, alerts, and</text>
-  <text x="570" y="125" text-anchor="middle" font-size="10" class="detail">a weekly review loop</text>
+  <circle cx="503" cy="91" r="13" fill="#82b366"/>
+  <text x="503" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">3</text>
+  <text x="592" y="85" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Set cost</text>
+  <text x="592" y="99" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">guardrails</text>
+  <text x="592" y="118" text-anchor="middle" font-size="10" class="detail">Owner, tags, alerts, and</text>
+  <text x="592" y="132" text-anchor="middle" font-size="10" class="detail">a weekly review loop</text>
 
   <rect x="475" y="188" width="190" height="74" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
-  <circle cx="495" cy="208" r="13" fill="#9673a6"/>
-  <text x="495" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">4</text>
-  <text x="580" y="211" text-anchor="middle" font-size="12" font-weight="bold" class="label">Choose the platform</text>
-  <text x="570" y="231" text-anchor="middle" font-size="10" class="detail">Smallest managed service</text>
-  <text x="570" y="245" text-anchor="middle" font-size="10" class="detail">that fits real requirements</text>
+  <circle cx="503" cy="211" r="13" fill="#9673a6"/>
+  <text x="503" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">4</text>
+  <text x="592" y="205" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Choose the</text>
+  <text x="592" y="219" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">platform</text>
+  <text x="592" y="238" text-anchor="middle" font-size="10" class="detail">Smallest managed service</text>
+  <text x="592" y="252" text-anchor="middle" font-size="10" class="detail">that fits real requirements</text>
 
   <rect x="245" y="188" width="190" height="74" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
-  <circle cx="265" cy="208" r="13" fill="#6c8ebf"/>
-  <text x="265" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">5</text>
-  <text x="350" y="211" text-anchor="middle" font-size="12" font-weight="bold" class="label">Deploy deliberately</text>
-  <text x="340" y="231" text-anchor="middle" font-size="10" class="detail">Identity, infrastructure as code,</text>
-  <text x="340" y="245" text-anchor="middle" font-size="10" class="detail">telemetry, and rollback</text>
+  <circle cx="273" cy="211" r="13" fill="#6c8ebf"/>
+  <text x="273" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">5</text>
+  <text x="362" y="205" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Deploy</text>
+  <text x="362" y="219" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">deliberately</text>
+  <text x="362" y="238" text-anchor="middle" font-size="10" class="detail">Identity, infrastructure as code,</text>
+  <text x="362" y="252" text-anchor="middle" font-size="10" class="detail">telemetry, and rollback</text>
 
   <rect x="15" y="188" width="190" height="74" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <circle cx="35" cy="208" r="13" fill="#82b366"/>
-  <text x="35" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">6</text>
-  <text x="120" y="211" text-anchor="middle" font-size="12" font-weight="bold" class="label">Know where to get help</text>
-  <text x="110" y="231" text-anchor="middle" font-size="10" class="detail">Program, billing, quota,</text>
-  <text x="110" y="245" text-anchor="middle" font-size="10" class="detail">service, or architecture</text>
+  <circle cx="43" cy="211" r="13" fill="#82b366"/>
+  <text x="43" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">6</text>
+  <text x="132" y="205" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Know where</text>
+  <text x="132" y="219" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">to get help</text>
+  <text x="132" y="238" text-anchor="middle" font-size="10" class="detail">Program, billing, quota,</text>
+  <text x="132" y="252" text-anchor="middle" font-size="10" class="detail">service, or architecture</text>
 
   <rect x="155" y="282" width="370" height="22" rx="11" fill="#f5f5f5" stroke="#666666" stroke-width="1"/>
   <text x="340" y="297" text-anchor="middle" font-size="10" font-weight="bold" class="detail">Outcome: a company-owned, cost-aware, supportable first environment</text>
