@@ -1,6 +1,6 @@
 # Roadmap
 
-## Now: first 48 hours
+## Shipped: first 48 hours
 
 - [x] Journey router
 - [x] Application and activation path
@@ -10,27 +10,35 @@
 - [x] Support map
 - [x] Curated source catalog
 
-## Next: first production workload
+## Shipped: first production workload
 
 - [x] Azure Container Apps vs. Azure Kubernetes Service
-- [ ] Bicep vs. Terraform
-- [ ] Relational vs. NoSQL database decision
-- [ ] GitHub Actions to Azure with workload identity federation
-- [ ] Minimum observability baseline
-- [ ] Backup and recovery baseline
-- [ ] AI application starter journey
-- [ ] GPU and AI capacity readiness
-- [ ] Credit graduation and pay-as-you-go transition
+- [x] Bicep vs. Terraform
+- [x] Relational vs. NoSQL database decision
+- [x] GitHub Actions to Azure with workload identity federation
+- [x] Minimum observability baseline
+- [x] Backup and recovery baseline
+- [x] AI application starter journey
+- [x] GPU and AI capacity readiness
+- [x] Credit graduation and pay-as-you-go transition
 
-## Later: product-market fit to scale
+## Shipped: product-market fit to scale
 
-- [ ] Multitenant SaaS decisions
-- [ ] FinOps maturity path
-- [ ] Compliance and enterprise-readiness journey
-- [ ] Platform engineering triggers
-- [ ] Multi-region decision framework
-- [ ] Graduation from a startup-sized foundation to Azure landing zones
-- [ ] Reference architectures with source diagrams
+- [x] Multitenant SaaS decisions
+- [x] FinOps maturity path
+- [x] Compliance and enterprise-readiness journey
+- [x] Platform engineering triggers
+- [x] Multi-region decision framework
+- [x] Graduation from a startup-sized foundation to Azure landing zones
+- [x] Reference architectures with source diagrams
+
+## After v1.0
+
+New work is driven by issue evidence, Microsoft platform changes, and
+contributor proposals. The guide does not keep a speculative feature backlog.
+Use a
+[general proposal issue](https://github.com/Azure-Startup-Field-Guide/guide/issues/new?template=general-proposal.yml)
+to propose the next journey, decision, or architecture.
 
 ## Success measures
 

@@ -3,6 +3,35 @@
 This project uses tagged releases for meaningful guide milestones. Small source,
 wording, and link-maintenance changes can ship between releases.
 
+## v1.0.0 - 2026-08-17
+
+Complete journey-first field guide release.
+
+### Added
+
+- five new technology decision records covering infrastructure as code, data,
+  tenancy, commitments, and managed services;
+- production paths for workload identity federation, observability, backup and
+  recovery, readiness review, Microsoft Foundry, AI capacity, and credit
+  graduation;
+- product-market-fit and scale journeys covering FinOps, compliance, platform
+  engineering, multiple regions, and Azure landing-zone graduation; and
+- three source-backed reference architectures with accessible SVG diagrams.
+
+### Changed
+
+- every previously planned guide-map and roadmap item is now available;
+- the website now routes directly to production, AI, scale, and architecture
+  content; and
+- volatile pricing, quota, regional, and Preview details remain delegated to
+  current official sources rather than copied into static guidance.
+
+### v1.0 verification
+
+The v1.0 content was reviewed against current Microsoft Learn, Microsoft for
+Startups, Azure Architecture Center, and GitHub OIDC documentation on August 17,
+2026.
+
 ## v0.1.0 - 2026-08-17
 
 Initial public field guide release.

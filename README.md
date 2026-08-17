@@ -24,6 +24,9 @@ journeys and calls out the decisions that are difficult to undo later.
 | My account, tenant, credits, or portal are not working | [Find the right support path](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help) |
 | I am worried about unexpected spend | [Set cost guardrails](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/03-cost-guardrails) |
 | My account is ready and I want a sensible foundation | [Deploy deliberately](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/04-build-foundation) |
+| A prototype is becoming a production service | [Build the production foundation](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/production) |
+| I am building an AI product | [Start with Microsoft Foundry](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/production/ai-application) |
+| Customers are creating scale or compliance pressure | [Follow the scale and enterprise path](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/scale) |
 | I need a broader technical checklist | [Azure Digital Natives Guide](https://azdnguide.com/) |
 | I need a startup-sized landing zone | [Startup-Scale Landing Zone](https://startupscalelanding.zone/) |
 
@@ -46,9 +49,10 @@ journeys and calls out the decisions that are difficult to undo later.
 | [Microsoft for Startups program](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/program) | Which portal, account, credits, and support path apply to me? | Available |
 | [Decisions](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions) | Which technology should I choose, and when should I revisit it? | Available |
 | [Curated resources](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/resources) | Which official and community resources are worth my time? | Available |
-| Architecture patterns | What should common startup workloads look like? | Planned |
-| MVP to product-market fit | What should change when the product gains traction? | Planned |
-| Enterprise readiness | How do I prepare for larger customers and compliance? | Planned |
+| [Architecture patterns](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/architectures) | What should common startup workloads look like? | Available |
+| [Production foundation](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/production) | What must exist before customers depend on the product? | Available |
+| [MVP to product-market fit](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/product-market-fit) | What should change when the product gains traction? | Available |
+| [Scale and enterprise readiness](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/scale) | How do I prepare for larger customers and compliance? | Available |
 
 See the
 [public roadmap](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/roadmap)

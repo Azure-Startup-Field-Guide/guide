@@ -15,14 +15,11 @@ Every decision page must include:
 ## Available decisions
 
 - [Azure Container Apps or Azure Kubernetes Service?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/container-apps-vs-aks)
-
-## Planned decisions
-
-- Bicep vs. Terraform
-- Azure SQL vs. PostgreSQL vs. Cosmos DB
-- Single-tenant vs. multitenant SaaS
-- Consumption vs. reserved capacity
-- Managed service vs. self-hosted component
+- [Bicep or Terraform?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/bicep-vs-terraform)
+- [Relational or NoSQL data?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/relational-vs-nosql)
+- [Single-tenant or multitenant SaaS?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/single-tenant-vs-multitenant)
+- [Consumption or committed capacity?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/consumption-vs-commitment)
+- [Managed service or self-hosted component?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/managed-vs-self-hosted)
 
 These pages will not declare universal winners. They will make the default,
 exceptions, and revisit triggers explicit.
