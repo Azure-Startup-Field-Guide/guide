@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-0078D4.svg)](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/LICENSE)
 [![Links](https://github.com/Azure-Startup-Field-Guide/guide/actions/workflows/links.yml/badge.svg)](https://github.com/Azure-Startup-Field-Guide/guide/actions/workflows/links.yml)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-22C55E.svg)](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/CONTRIBUTING.md)
+[![Website](https://img.shields.io/badge/website-open-6366F1.svg)](https://azure-startup-field-guide.github.io/guide/)
 
 **Not a list of links. A path through them.**
 
@@ -43,7 +44,7 @@ journeys and calls out the decisions that are difficult to undo later.
 | --- | --- | --- |
 | [First 48 hours](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours) | How do I get from application to a safe first deployment? | Available |
 | [Microsoft for Startups program](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/program) | Which portal, account, credits, and support path apply to me? | Available |
-| [Decisions](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions) | Which technology should I choose, and when should I revisit it? | Starting |
+| [Decisions](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions) | Which technology should I choose, and when should I revisit it? | Available |
 | [Curated resources](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/resources) | Which official and community resources are worth my time? | Available |
 | Architecture patterns | What should common startup workloads look like? | Planned |
 | MVP to product-market fit | What should change when the product gains traction? | Planned |
@@ -51,7 +52,9 @@ journeys and calls out the decisions that are difficult to undo later.
 
 See the
 [public roadmap](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/roadmap)
-for planned work.
+for planned work and the
+[changelog](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/changelog)
+for published versions.
 
 ## Principles
 

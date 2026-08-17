@@ -1,6 +1,6 @@
 # Technology decisions
 
-This section will contain concise decision records for choices that startups
+This section contains concise decision records for choices that startups
 frequently make too early or revisit too late.
 
 Every decision page must include:
@@ -12,9 +12,12 @@ Every decision page must include:
 5. conditions that invalidate the recommendation; and
 6. official sources.
 
+## Available decisions
+
+- [Azure Container Apps or Azure Kubernetes Service?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/container-apps-vs-aks)
+
 ## Planned decisions
 
-- Azure Container Apps vs. Azure Kubernetes Service
 - Bicep vs. Terraform
 - Azure SQL vs. PostgreSQL vs. Cosmos DB
 - Single-tenant vs. multitenant SaaS

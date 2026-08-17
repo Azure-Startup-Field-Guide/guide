@@ -9,11 +9,10 @@
 - [x] Platform foundation
 - [x] Support map
 - [x] Curated source catalog
-- [ ] Validate the journey with founders who recently onboarded
 
 ## Next: first production workload
 
-- [ ] Azure Container Apps vs. Azure Kubernetes Service
+- [x] Azure Container Apps vs. Azure Kubernetes Service
 - [ ] Bicep vs. Terraform
 - [ ] Relational vs. NoSQL database decision
 - [ ] GitHub Actions to Azure with workload identity federation
