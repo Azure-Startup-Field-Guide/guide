@@ -1,5 +1,8 @@
 # 5. Use the right support path
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 Do not wait until an outage to learn which team handles which problem.
 
 ![Routing diagram for Microsoft for Startups program, Azure support, advisor, and community help](../../static/img/support-routing.svg)
@@ -7,7 +10,7 @@ Do not wait until an outage to learn which team handles which problem.
 ## Support map
 
 | Need | Route |
-|---|---|
+| --- | --- |
 | Application problem before the Azure account exists | [Microsoft for Startups program support](https://aka.ms/startuphelp-mfs-portal) |
 | Credit activation, benefit redemption, billing profile, entitlement, or startup portal access | **Get Program Support** in the Microsoft for Startups experience |
 | Azure error, quota, billing, subscription, or urgent service issue | [Create an Azure support request](https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request) |
@@ -27,6 +30,14 @@ The current Microsoft documentation describes two program experiences:
   section.
 
 Follow the current official support page if your interface differs.
+
+## "Azure Advisor" means a person in the startup program
+
+Microsoft for Startups uses **Azure Advisor** for a human technical specialist
+who can help with architecture, migration, and optimization. This is different
+from the [Azure Advisor product](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview),
+which analyzes resource configuration and usage telemetry to produce automated
+recommendations.
 
 ## Make a support request actionable
 
@@ -53,5 +64,6 @@ another tenant or subscription as a workaround.
 ## Official sources
 
 - [Technical Guidance and Support Overview](https://learn.microsoft.com/en-us/startups/benefits/technical-benefits/technical-support)
+- [Microsoft for Startups Program Support](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-program-support)
 - [Microsoft for Startups FAQ](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-faqs)
 - [Create an Azure support request](https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request)

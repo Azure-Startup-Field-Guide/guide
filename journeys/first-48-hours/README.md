@@ -3,6 +3,9 @@
 This journey is for a founder or early engineer who is applying to Microsoft
 for Startups, activating credits, or preparing the first Azure deployment.
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 The order matters. Credit activation begins with an individual Microsoft
 account, but a production environment should not remain dependent on one
 person.
@@ -24,7 +27,7 @@ By the end of this journey you should have:
 ## The path
 
 | Step | Time | Result |
-|---|---:|---|
+| --- | ---: | --- |
 | [1. Apply and activate](01-apply-and-activate.md) | 20-60 min | Correct account and sponsored subscription |
 | [2. Establish company identity](02-company-identity.md) | 30-90 min | Company-backed tenant and resilient administration |
 | [3. Set cost guardrails](03-cost-guardrails.md) | 20-45 min | Owners, tags, review cadence, and available alerts |

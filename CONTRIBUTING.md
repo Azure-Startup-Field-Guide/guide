@@ -2,6 +2,9 @@
 
 Thank you for helping startups find a clearer path through Azure.
 
+Participation in this project is governed by the
+[Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Good contributions
 
 - Fix an inaccurate or broken step.

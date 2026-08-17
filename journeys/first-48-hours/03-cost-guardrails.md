@@ -1,5 +1,8 @@
 # 3. Make credits visible before they become spend
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 ## The recommendation
 
 Treat startup credits as temporary runway, not as free infrastructure. Establish
@@ -23,7 +26,7 @@ One person must own the weekly review of:
 Use infrastructure as code to apply, at minimum:
 
 | Tag | Example | Why |
-|---|---|---|
+| --- | --- | --- |
 | `environment` | `dev`, `staging`, `prod` | Separate production from experiments |
 | `owner` | team or role, not a personal secret | Route cost and operational questions |
 | `workload` | `api`, `rag`, `data-platform` | Attribute spend to product decisions |
@@ -66,6 +69,17 @@ Track a unit connected to product value, such as:
 The correct time to change architecture is before credits expire, not after the
 first pay-as-you-go invoice.
 
+## Plan the exit from credits
+
+Current program documentation says remaining credits expire at graduation and
+the subscription transitions to standard pay-as-you-go. Before deploying a
+production workload:
+
+- record the sponsorship end date and billing owner;
+- forecast the same workload without credits;
+- define which experiments will be removed or resized first; and
+- review the transition plan at least monthly.
+
 ## Next
 
 Continue to [4. Build the foundation](04-build-foundation.md).
@@ -73,5 +87,7 @@ Continue to [4. Build the foundation](04-build-foundation.md).
 ## Official sources
 
 - [Best Ways to Use Startup Credits](https://learn.microsoft.com/en-us/startups/benefits/azure-credits/use-azure-credits)
+- [Azure Usage and Billing](https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing)
+- [Program Graduation](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation)
 - [Start using Cost Analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis)
 - [Tutorial: Create and manage Azure budgets](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)

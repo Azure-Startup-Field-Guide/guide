@@ -27,6 +27,12 @@ scope, licensing, governance, branding, or source policy require:
 
 Security fixes and removals of harmful guidance may be handled immediately.
 
+The project is currently in a single-maintainer bootstrap phase. Until a second
+active maintainer is added, material decisions still require the public issue
+and discussion period above, and the sole maintainer records the final decision
+with rationale. The maintainer roster should expand after a contributor has
+demonstrated sustained review quality across multiple changes.
+
 ## Freshness
 
 - Automated link checks run weekly and on pull requests.

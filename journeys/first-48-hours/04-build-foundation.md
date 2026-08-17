@@ -1,5 +1,8 @@
 # 4. Build the smallest foundation that can grow
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 ## The recommendation
 
 Choose the simplest managed platform that satisfies a concrete requirement.
@@ -11,7 +14,7 @@ landing zone solely because you expect the company to grow.
 ## Match the workload to the platform
 
 | Workload need | Start by evaluating |
-|---|---|
+| --- | --- |
 | Web application or HTTP API | Azure App Service |
 | Event-driven task or scheduled function | Azure Functions |
 | Containerized service without direct Kubernetes requirements | Azure Container Apps |

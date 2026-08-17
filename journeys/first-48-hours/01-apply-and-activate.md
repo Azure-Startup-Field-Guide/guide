@@ -1,5 +1,8 @@
 # 1. Apply and activate without creating an identity trap
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 ## The recommendation
 
 Use the personal Microsoft account requested by the Microsoft for Startups
@@ -19,6 +22,11 @@ Have these items ready:
 The current application documentation states that work, school, and company
 domain accounts are not accepted for the sign-up steps. It also warns that the
 billing country or region cannot be changed later in the existing profile.
+
+> **Stop before redemption:** confirm both the billing country or region and the
+> personal Microsoft account. Current program FAQs state that the billing
+> country or region cannot be directly changed on an existing billing profile
+> and startup credits cannot be transferred to a different Microsoft account.
 
 ## Apply
 
@@ -51,7 +59,7 @@ or repeatedly redeem the offer. Use the support path in
 ## Common failures
 
 | Symptom | What to check |
-|---|---|
+| --- | --- |
 | Company email is rejected | The application requires a personal consumer Microsoft account |
 | Credits are not visible immediately | Allow for the documented processing delay, then verify the billing profile |
 | "Already redeemed" | The Microsoft account may have redeemed another Azure credit offer |

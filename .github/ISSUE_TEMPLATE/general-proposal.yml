@@ -1,0 +1,39 @@
+name: Propose a guide improvement
+description: Suggest a new journey, decision, governance change, or navigation improvement.
+title: "[Proposal]: "
+body:
+  - type: dropdown
+    id: proposal_type
+    attributes:
+      label: Proposal type
+      options:
+        - New journey or stage
+        - New technical decision
+        - Navigation or information architecture
+        - Governance or contribution process
+        - Other guide improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What founder problem should this solve?
+      description: Describe the journey friction or decision gap, not only the content you want added.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and official sources
+      description: Link current official documentation and anonymized evidence. Do not include confidential data.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should a reader be able to do afterward?
+    validations:
+      required: true

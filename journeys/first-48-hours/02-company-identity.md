@@ -1,5 +1,8 @@
 # 2. Attach the environment to your company
 
+> **Verified in the August 16, 2026 repository audit against current official
+> Microsoft documentation.**
+
 ## The recommendation
 
 Keep the individual Microsoft account required for credit activation, then
@@ -7,6 +10,11 @@ establish company identity and resilient administration before deploying
 workloads.
 
 This is the most important step in the guide.
+
+The startup credits remain tied to the Microsoft account used for redemption;
+current program FAQs say they cannot be transferred to another Microsoft
+account. Preserve that activation identity while moving daily administration,
+recovery, and team access to company-controlled identities.
 
 ![Azure identity model showing personal credit activation transitioning to company-backed control](../../static/img/company-identity-model.svg)
 
@@ -66,6 +74,7 @@ Continue to [3. Set cost guardrails](03-cost-guardrails.md).
 ## Official sources
 
 - [Properly Setting Up Your Azure Account](https://learn.microsoft.com/en-us/startups/build/azure-getting-started/set-up-account)
+- [Microsoft for Startups FAQ](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-faqs)
 - [Add a custom domain name](https://learn.microsoft.com/en-us/entra/fundamentals/add-custom-domain)
 - [Manage custom domain names](https://learn.microsoft.com/en-us/entra/identity/users/domains-manage)
 - [Add or change Azure subscription administrators](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/add-change-subscription-administrator)

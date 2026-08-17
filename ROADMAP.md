@@ -20,6 +20,8 @@
 - [ ] Minimum observability baseline
 - [ ] Backup and recovery baseline
 - [ ] AI application starter journey
+- [ ] GPU and AI capacity readiness
+- [ ] Credit graduation and pay-as-you-go transition
 
 ## Later: product-market fit to scale
 

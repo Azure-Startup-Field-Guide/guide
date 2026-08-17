@@ -17,7 +17,7 @@ journeys and calls out the decisions that are difficult to undo later.
 ## Start here
 
 | Your situation | Recommended path |
-|---|---|
+| --- | --- |
 | I am applying or activating startup credits | [Application and account setup](journeys/first-48-hours/01-apply-and-activate.md) |
 | I received credits and want to deploy now | **Pause first:** [attach the environment to your company](journeys/first-48-hours/02-company-identity.md) |
 | My account, tenant, credits, or portal are not working | [Find the right support path](journeys/first-48-hours/05-get-help.md) |
@@ -40,7 +40,7 @@ journeys and calls out the decisions that are difficult to undo later.
 ## Guide map
 
 | Area | What it answers | Status |
-|---|---|---|
+| --- | --- | --- |
 | [First 48 hours](journeys/first-48-hours/) | How do I get from application to a safe first deployment? | Available |
 | [Microsoft for Startups program](program/) | Which portal, account, credits, and support path apply to me? | Available |
 | [Decisions](decisions/) | Which technology should I choose, and when should I revisit it? | Starting |
@@ -80,7 +80,7 @@ path visible before another founder loses a day discovering it.
 ## Source labels
 
 | Label | Meaning |
-|---|---|
+| --- | --- |
 | **Official Microsoft** | Published on a Microsoft-owned site or GitHub organization |
 | **Microsoft community** | Created by a Microsoft employee in a personal or community capacity |
 | **Community** | Independent resource reviewed for relevance and technical quality |

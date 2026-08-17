@@ -6,7 +6,7 @@ startup complete a journey or make a decision better than a raw search result.
 ## Official Microsoft
 
 | Resource | Best for |
-|---|---|
+| --- | --- |
 | [Microsoft for Startups](https://www.microsoft.com/en-us/startups) | Program entry point |
 | [Microsoft for Startups on Learn](https://learn.microsoft.com/en-us/startups/) | Program, build, AI, and enterprise-readiness journeys |
 | [Application guide](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/application) | Eligibility, application, and Azure account creation |
@@ -29,7 +29,7 @@ These resources are created by Microsoft employees in a personal or community
 capacity. They are not official Microsoft documentation.
 
 | Resource | Best for | Caveat |
-|---|---|---|
+| --- | --- | --- |
 | [Azure Digital Natives Guide](https://azdnguide.com/) | Broad, opinionated technical checklist from MVP through scale | Validate recommendations against current official docs and your requirements |
 | [Startup-Scale Landing Zone](https://startupscalelanding.zone/) | A deliberately small Azure foundation for early-stage companies | Not a substitute for enterprise Azure landing zones in complex or regulated environments |
 | [Azure Governance Made Simple](https://azgovernance.com/) | Governance concepts and implementation guidance | Community-authored; verify time-sensitive service behavior |
