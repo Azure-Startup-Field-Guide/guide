@@ -3,9 +3,9 @@
 > The opinionated, community-maintained field guide for startups building on
 > Azure, from first credit to production scale.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-0078D4.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-0078D4.svg)](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/LICENSE)
 [![Links](https://github.com/Azure-Startup-Field-Guide/guide/actions/workflows/links.yml/badge.svg)](https://github.com/Azure-Startup-Field-Guide/guide/actions/workflows/links.yml)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-22C55E.svg)](CONTRIBUTING.md)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-22C55E.svg)](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/CONTRIBUTING.md)
 
 **Not a list of links. A path through them.**
 
@@ -18,11 +18,11 @@ journeys and calls out the decisions that are difficult to undo later.
 
 | Your situation | Recommended path |
 | --- | --- |
-| I am applying or activating startup credits | [Application and account setup](journeys/first-48-hours/01-apply-and-activate.md) |
-| I received credits and want to deploy now | **Pause first:** [attach the environment to your company](journeys/first-48-hours/02-company-identity.md) |
-| My account, tenant, credits, or portal are not working | [Find the right support path](journeys/first-48-hours/05-get-help.md) |
-| I am worried about unexpected spend | [Set cost guardrails](journeys/first-48-hours/03-cost-guardrails.md) |
-| My account is ready and I want a sensible foundation | [Deploy deliberately](journeys/first-48-hours/04-build-foundation.md) |
+| I am applying or activating startup credits | [Application and account setup](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/01-apply-and-activate) |
+| I received credits and want to deploy now | **Pause first:** [attach the environment to your company](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/02-company-identity) |
+| My account, tenant, credits, or portal are not working | [Find the right support path](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help) |
+| I am worried about unexpected spend | [Set cost guardrails](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/03-cost-guardrails) |
+| My account is ready and I want a sensible foundation | [Deploy deliberately](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/04-build-foundation) |
 | I need a broader technical checklist | [Azure Digital Natives Guide](https://azdnguide.com/) |
 | I need a startup-sized landing zone | [Startup-Scale Landing Zone](https://startupscalelanding.zone/) |
 
@@ -30,12 +30,12 @@ journeys and calls out the decisions that are difficult to undo later.
 
 ![Six-step Azure startup journey from application to a supportable first environment](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/static/img/first-48-hours-journey.svg)
 
-1. [Understand the journey](journeys/first-48-hours/README.md)
-2. [Apply and activate](journeys/first-48-hours/01-apply-and-activate.md)
-3. [Establish company identity](journeys/first-48-hours/02-company-identity.md)
-4. [Set cost guardrails](journeys/first-48-hours/03-cost-guardrails.md)
-5. [Build the foundation](journeys/first-48-hours/04-build-foundation.md)
-6. [Get the right help](journeys/first-48-hours/05-get-help.md)
+1. [Understand the journey](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours)
+2. [Apply and activate](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/01-apply-and-activate)
+3. [Establish company identity](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/02-company-identity)
+4. [Set cost guardrails](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/03-cost-guardrails)
+5. [Build the foundation](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/04-build-foundation)
+6. [Get the right help](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help)
 
 ## Guide map
 
@@ -49,7 +49,9 @@ journeys and calls out the decisions that are difficult to undo later.
 | MVP to product-market fit | What should change when the product gains traction? | Planned |
 | Enterprise readiness | How do I prepare for larger customers and compliance? | Planned |
 
-See the [public roadmap](ROADMAP.md) for planned work.
+See the
+[public roadmap](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/roadmap)
+for planned work.
 
 ## Principles
 
@@ -88,8 +90,11 @@ path visible before another founder loses a day discovering it.
 ## Contributing
 
 Founders, engineers, investors, Microsoft employees, and community experts are
-welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the
-[editorial standards](EDITORIAL.md). If a recommendation failed at your stage,
+welcome. Start with
+[CONTRIBUTING.md](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/CONTRIBUTING.md)
+and the
+[editorial standards](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/EDITORIAL.md).
+If a recommendation failed at your stage,
 please open a [stage feedback issue](https://github.com/Azure-Startup-Field-Guide/guide/issues/new?template=stage-feedback.yml).
 
 ## Disclaimer

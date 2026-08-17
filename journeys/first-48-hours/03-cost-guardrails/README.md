@@ -82,7 +82,8 @@ production workload:
 
 ## Next
 
-Continue to [4. Build the foundation](04-build-foundation.md).
+Continue to
+[4. Build the foundation](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/04-build-foundation).
 
 ## Official sources
 

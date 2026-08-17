@@ -43,3 +43,5 @@ The project succeeds when it:
 - exposes cost before credits expire;
 - routes a founder to the correct support channel; or
 - changes guidance when contributor evidence proves it wrong.
+
+[Back to the main guide](https://github.com/Azure-Startup-Field-Guide/guide)

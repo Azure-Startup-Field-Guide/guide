@@ -39,7 +39,8 @@ capacity. They are not official Microsoft documentation.
 
 ## Startups at Microsoft reading paths
 
-The [curated Startups at Microsoft reading paths](startups-at-microsoft.md)
+The
+[curated Startups at Microsoft reading paths](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/resources/startups-at-microsoft)
 organize selected Tech Community articles around onboarding, foundation, cost,
 operations, AKS, and AI. The complete author index remains available in
 [Ricardo Martins' Activity Log](https://github.com/ricmmartins/activitylog/#%EF%B8%8F-startups-at-microsoft-blog).
@@ -48,9 +49,10 @@ operations, AKS, and AI. The complete author index remains available in
 
 This first catalog is intentionally anchored in official documentation and a
 small set of practitioner resources. Tech Community, dev.to, blog, and GitHub
-submissions will be added only after review under [EDITORIAL.md](../EDITORIAL.md).
+submissions will be added only after review under the
+[editorial standards](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/EDITORIAL.md).
 
 Found a resource that closes a real gap? Submit a
 [resource proposal](https://github.com/Azure-Startup-Field-Guide/guide/issues/new?template=new-resource.yml).
 
-[Back to the main guide](../README.md)
+[Back to the main guide](https://github.com/Azure-Startup-Field-Guide/guide)

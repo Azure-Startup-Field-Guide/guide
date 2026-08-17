@@ -84,4 +84,4 @@ sustainable unit economics.
 - [Azure usage and billing](https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing)
 - [Program graduation](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation)
 
-[Back to the main guide](../README.md)
+[Back to the main guide](https://github.com/Azure-Startup-Field-Guide/guide)

@@ -69,7 +69,8 @@ Before continuing:
 
 ## Next
 
-Continue to [3. Set cost guardrails](03-cost-guardrails.md).
+Continue to
+[3. Set cost guardrails](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/03-cost-guardrails).
 
 ## Official sources
 

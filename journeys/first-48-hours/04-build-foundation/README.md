@@ -65,7 +65,9 @@ the conditions that will trigger a move to a more complex platform.
 
 ## Next
 
-Read [5. Get the right help](05-get-help.md) before you need it.
+Read
+[5. Get the right help](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help)
+before you need it.
 
 ## Official sources
 

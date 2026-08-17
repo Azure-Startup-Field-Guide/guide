@@ -73,4 +73,4 @@ Articles are included when they:
 The complete publication list is available in the
 [Activity Log](https://github.com/ricmmartins/activitylog/#%EF%B8%8F-startups-at-microsoft-blog).
 
-[Back to curated resources](README.md)
+[Back to curated resources](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/resources)

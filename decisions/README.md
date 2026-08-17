@@ -24,4 +24,4 @@ Every decision page must include:
 These pages will not declare universal winners. They will make the default,
 exceptions, and revisit triggers explicit.
 
-[Back to the main guide](../README.md)
+[Back to the main guide](https://github.com/Azure-Startup-Field-Guide/guide)

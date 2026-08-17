@@ -28,11 +28,11 @@ By the end of this journey you should have:
 
 | Step | Time | Result |
 | --- | ---: | --- |
-| [1. Apply and activate](01-apply-and-activate.md) | 20-60 min | Correct account and sponsored subscription |
-| [2. Establish company identity](02-company-identity.md) | 30-90 min | Company-backed tenant and resilient administration |
-| [3. Set cost guardrails](03-cost-guardrails.md) | 20-45 min | Owners, tags, review cadence, and available alerts |
-| [4. Build the foundation](04-build-foundation.md) | 1-4 hr | Deliberate first deployment path |
-| [5. Know where to get help](05-get-help.md) | 5 min | Correct escalation route before an incident |
+| [1. Apply and activate](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/01-apply-and-activate) | 20-60 min | Correct account and sponsored subscription |
+| [2. Establish company identity](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/02-company-identity) | 30-90 min | Company-backed tenant and resilient administration |
+| [3. Set cost guardrails](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/03-cost-guardrails) | 20-45 min | Owners, tags, review cadence, and available alerts |
+| [4. Build the foundation](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/04-build-foundation) | 1-4 hr | Deliberate first deployment path |
+| [5. Know where to get help](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help) | 5 min | Correct escalation route before an incident |
 
 ## Stop conditions
 
@@ -55,4 +55,4 @@ guide explicitly says to complete the identity and administration steps before
 building workloads. This journey makes that sequence the front door instead of
 an easy-to-miss follow-up.
 
-[Back to the main guide](../../README.md)
+[Back to the main guide](https://github.com/Azure-Startup-Field-Guide/guide)

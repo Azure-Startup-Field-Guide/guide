@@ -54,7 +54,7 @@ In the Azure portal:
 The official FAQ says credit balances can take several hours to appear after
 successful activation. If they do not appear, do not create parallel accounts
 or repeatedly redeem the offer. Use the support path in
-[Get help](05-get-help.md).
+[Get help](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/05-get-help).
 
 ## Common failures
 
@@ -69,7 +69,7 @@ or repeatedly redeem the offer. Use the support path in
 ## Next
 
 Do not deploy yet. Continue to
-[2. Establish company identity](02-company-identity.md).
+[2. Establish company identity](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours/02-company-identity).
 
 ## Official sources
 

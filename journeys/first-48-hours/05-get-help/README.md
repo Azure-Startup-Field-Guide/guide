@@ -67,3 +67,5 @@ another tenant or subscription as a workaround.
 - [Microsoft for Startups Program Support](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-program-support)
 - [Microsoft for Startups FAQ](https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-faqs)
 - [Create an Azure support request](https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request)
+
+[Back to the first 48 hours journey](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours)

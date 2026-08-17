@@ -3,7 +3,7 @@
 Thank you for helping startups find a clearer path through Azure.
 
 Participation in this project is governed by the
-[Code of Conduct](CODE_OF_CONDUCT.md).
+[Code of Conduct](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/CODE_OF_CONDUCT.md).
 
 ## Good contributions
 
@@ -17,7 +17,8 @@ Participation in this project is governed by the
 ## Before opening a pull request
 
 1. Open an issue for substantial new sections or scope changes.
-2. Read [EDITORIAL.md](EDITORIAL.md).
+2. Read
+   [EDITORIAL.md](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/EDITORIAL.md).
 3. Use official Microsoft sources for technical and program claims.
 4. Label community content and disclose relevant affiliations.
 5. Verify every internal and external link.
