@@ -16,7 +16,7 @@ current program FAQs say they cannot be transferred to another Microsoft
 account. Preserve that activation identity while moving daily administration,
 recovery, and team access to company-controlled identities.
 
-![Azure identity model showing personal credit activation transitioning to company-backed control](../../static/img/company-identity-model.svg)
+![Azure identity model showing personal credit activation transitioning to company-backed control](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/static/img/company-identity-model.svg)
 
 ## Complete these actions
 

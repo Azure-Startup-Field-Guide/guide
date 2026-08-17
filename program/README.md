@@ -42,7 +42,7 @@ amounts or eligibility from an older screenshot, copied checklist, or blog post.
 The credit offer is activated by an individual using the Microsoft account
 required by the program. After activation, complete the company identity and
 administration work described in the
-[first 48 hours journey](../journeys/first-48-hours/).
+[first 48 hours journey](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours).
 
 ## Avoid hard-coded assumptions
 

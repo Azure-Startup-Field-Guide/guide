@@ -14,7 +14,7 @@ before building.
 3. [Demystifying Microsoft Entra ID, Tenants and Azure Subscriptions](https://techcommunity.microsoft.com/t5/startups-at-microsoft/demystifying-microsoft-entra-id-tenants-and-azure-subscriptions/ba-p/4155261)
 4. [Getting started with Azure Developer CLI](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/getting-started-with-azure-developer-cli-azd/4392010)
 
-Start with the guide's [first 48 hours journey](../journeys/first-48-hours/)
+Start with the guide's [first 48 hours journey](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours)
 because it links account and program steps to current official sources.
 
 ## I need a platform foundation

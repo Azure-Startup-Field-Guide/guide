@@ -28,7 +28,7 @@ journeys and calls out the decisions that are difficult to undo later.
 
 ## The first 48 hours
 
-![Six-step Azure startup journey from application to a supportable first environment](static/img/first-48-hours-journey.svg)
+![Six-step Azure startup journey from application to a supportable first environment](https://raw.githubusercontent.com/Azure-Startup-Field-Guide/guide/main/static/img/first-48-hours-journey.svg)
 
 1. [Understand the journey](journeys/first-48-hours/README.md)
 2. [Apply and activate](journeys/first-48-hours/01-apply-and-activate.md)
@@ -41,10 +41,10 @@ journeys and calls out the decisions that are difficult to undo later.
 
 | Area | What it answers | Status |
 | --- | --- | --- |
-| [First 48 hours](journeys/first-48-hours/) | How do I get from application to a safe first deployment? | Available |
-| [Microsoft for Startups program](program/) | Which portal, account, credits, and support path apply to me? | Available |
-| [Decisions](decisions/) | Which technology should I choose, and when should I revisit it? | Starting |
-| [Curated resources](resources/) | Which official and community resources are worth my time? | Available |
+| [First 48 hours](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/first-48-hours) | How do I get from application to a safe first deployment? | Available |
+| [Microsoft for Startups program](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/program) | Which portal, account, credits, and support path apply to me? | Available |
+| [Decisions](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions) | Which technology should I choose, and when should I revisit it? | Starting |
+| [Curated resources](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/resources) | Which official and community resources are worth my time? | Available |
 | Architecture patterns | What should common startup workloads look like? | Planned |
 | MVP to product-market fit | What should change when the product gains traction? | Planned |
 | Enterprise readiness | How do I prepare for larger customers and compliance? | Planned |
