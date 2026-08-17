@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 455" font-family="Segoe UI, Arial, sans-serif" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 590" font-family="Segoe UI, Arial, sans-serif" role="img" aria-labelledby="title desc">
   <title id="title">Choose the smallest Azure platform that meets the workload requirements</title>
-  <desc id="desc">A decision tree routes web applications, event-driven tasks, containers, and explicit Kubernetes requirements to suitable starting services.</desc>
+  <desc id="desc">A decision tree routes guest operating system and specialized hardware requirements to Azure Virtual Machines, Kubernetes requirements to Azure Kubernetes Service, container workloads to Azure Container Apps, event-driven workloads to Azure Functions, and web workloads to Azure App Service.</desc>
   <defs>
     <marker id="green-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
@@ -25,52 +25,66 @@
   <text x="340" y="27" text-anchor="middle" font-size="16" font-weight="bold" class="title">Choose the smallest platform that fits</text>
   <text x="340" y="46" text-anchor="middle" font-size="10" class="detail">Start with requirements, not the service you expect to need someday</text>
 
-  <rect x="170" y="62" width="340" height="60" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
-  <text x="340" y="86" text-anchor="middle" font-size="12" font-weight="bold" class="label">Do you require the Kubernetes API, operators,</text>
-  <text x="340" y="103" text-anchor="middle" font-size="12" font-weight="bold" class="label">specialized scheduling, or an existing K8s platform?</text>
+  <rect x="155" y="62" width="370" height="66" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="340" y="86" text-anchor="middle" font-size="12" font-weight="bold" class="label">Do you need guest OS, driver, appliance,</text>
+  <text x="340" y="103" text-anchor="middle" font-size="12" font-weight="bold" class="label">specialized hardware, or VM-only software control?</text>
 
-  <path d="M 250 122 L 130 157" class="yes"/>
-  <text x="184" y="135" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
-  <path d="M 430 122 L 525 147" class="no"/>
-  <text x="474" y="135" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+  <path d="M 245 128 L 135 157" class="yes"/>
+  <text x="188" y="142" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 435 128 L 505 151" class="no"/>
+  <text x="468" y="141" font-size="10" font-weight="bold" fill="#c62828">NO</text>
 
-  <rect x="20" y="162" width="220" height="72" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <text x="130" y="189" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure Kubernetes Service</text>
-  <text x="130" y="210" text-anchor="middle" font-size="10" class="detail">Accept the operational model</text>
-  <text x="130" y="224" text-anchor="middle" font-size="10" class="detail">because requirements justify it</text>
+  <rect x="20" y="162" width="240" height="78" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="140" y="187" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure VMs / VM Scale Sets</text>
+  <text x="140" y="207" text-anchor="middle" font-size="10" class="detail">Own guest OS, images, patching,</text>
+  <text x="140" y="222" text-anchor="middle" font-size="10" class="detail">availability, recovery, and fleet health</text>
 
-  <rect x="390" y="152" width="270" height="62" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
-  <text x="525" y="178" text-anchor="middle" font-size="12" font-weight="bold" class="label">Is the workload containerized?</text>
-  <text x="525" y="198" text-anchor="middle" font-size="10" class="detail">Without a direct Kubernetes need</text>
+  <rect x="350" y="156" width="310" height="72" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
+  <text x="505" y="181" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Do you require the Kubernetes API, operators,</text>
+  <text x="505" y="198" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">specialized scheduling, or an existing K8s platform?</text>
 
-  <path d="M 470 214 L 375 251" class="yes"/>
-  <text x="420" y="230" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
-  <path d="M 585 214 L 585 246" class="no"/>
-  <text x="594" y="234" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+  <path d="M 440 228 L 345 263" class="yes"/>
+  <text x="389" y="244" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 570 228 L 570 258" class="no"/>
+  <text x="579" y="247" font-size="10" font-weight="bold" fill="#c62828">NO</text>
 
-  <rect x="255" y="256" width="230" height="72" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <text x="370" y="283" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure Container Apps</text>
-  <text x="370" y="304" text-anchor="middle" font-size="10" class="detail">Managed container platform</text>
-  <text x="370" y="318" text-anchor="middle" font-size="10" class="detail">without cluster operations</text>
+  <rect x="225" y="268" width="220" height="72" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="335" y="295" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure Kubernetes Service</text>
+  <text x="335" y="316" text-anchor="middle" font-size="10" class="detail">Accept cluster operations because</text>
+  <text x="335" y="330" text-anchor="middle" font-size="10" class="detail">explicit requirements justify them</text>
 
-  <rect x="505" y="251" width="155" height="62" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
-  <text x="582" y="277" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">Event-driven</text>
-  <text x="582" y="294" text-anchor="middle" font-size="11.5" font-weight="bold" class="label">or scheduled?</text>
+  <rect x="475" y="263" width="185" height="62" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
+  <text x="567" y="289" text-anchor="middle" font-size="12" font-weight="bold" class="label">Is it containerized?</text>
+  <text x="567" y="309" text-anchor="middle" font-size="10" class="detail">Without a Kubernetes need</text>
 
-  <path d="M 552 313 L 448 340" class="yes"/>
-  <text x="500" y="328" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
-  <path d="M 613 313 L 593 340" class="no"/>
-  <text x="620" y="329" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+  <path d="M 525 325 L 440 365" class="yes"/>
+  <text x="480" y="343" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 610 325 L 610 360" class="no"/>
+  <text x="619" y="347" font-size="10" font-weight="bold" fill="#c62828">NO</text>
 
-  <rect x="380" y="345" width="135" height="56" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <text x="447" y="370" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure Functions</text>
-  <text x="447" y="388" text-anchor="middle" font-size="9" class="detail">Events, jobs, schedules</text>
+  <rect x="325" y="370" width="220" height="72" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="435" y="397" text-anchor="middle" font-size="12" font-weight="bold" class="label">Azure Container Apps</text>
+  <text x="435" y="418" text-anchor="middle" font-size="10" class="detail">Managed container platform</text>
+  <text x="435" y="432" text-anchor="middle" font-size="10" class="detail">without cluster operations</text>
 
-  <rect x="525" y="345" width="135" height="56" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
-  <text x="592" y="370" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure App Service</text>
-  <text x="592" y="388" text-anchor="middle" font-size="9" class="detail">Web apps and APIs</text>
+  <rect x="550" y="365" width="110" height="62" rx="8" fill="#fff3e0" stroke="#d6b656" stroke-width="2"/>
+  <text x="605" y="390" text-anchor="middle" font-size="10.5" font-weight="bold" class="label">Event-driven</text>
+  <text x="605" y="407" text-anchor="middle" font-size="10.5" font-weight="bold" class="label">or scheduled?</text>
 
-  <rect x="20" y="414" width="640" height="32" rx="8" fill="#f5f5f5" stroke="#666666" stroke-width="1.5"/>
-  <text x="340" y="427" text-anchor="middle" font-size="9.5" font-weight="bold" class="label">For every path</text>
-  <text x="340" y="440" text-anchor="middle" font-size="8.5" class="detail">Region, quota, compliance | Infrastructure as code | Managed identity | Telemetry, rollback, owner | Revisit trigger</text>
+  <path d="M 580 427 L 515 468" class="yes"/>
+  <text x="540" y="448" font-size="10" font-weight="bold" fill="#2e7d32">YES</text>
+  <path d="M 630 427 L 630 466" class="no"/>
+  <text x="639" y="450" font-size="10" font-weight="bold" fill="#c62828">NO</text>
+
+  <rect x="420" y="473" width="130" height="56" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="485" y="498" text-anchor="middle" font-size="11" font-weight="bold" class="label">Azure Functions</text>
+  <text x="485" y="516" text-anchor="middle" font-size="9" class="detail">Events, jobs, schedules</text>
+
+  <rect x="560" y="473" width="100" height="56" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="610" y="496" text-anchor="middle" font-size="10.5" font-weight="bold" class="label">App Service</text>
+  <text x="610" y="514" text-anchor="middle" font-size="9" class="detail">Web apps and APIs</text>
+
+  <rect x="20" y="549" width="640" height="32" rx="8" fill="#f5f5f5" stroke="#666666" stroke-width="1.5"/>
+  <text x="340" y="562" text-anchor="middle" font-size="9.5" font-weight="bold" class="label">For every path</text>
+  <text x="340" y="575" text-anchor="middle" font-size="8.5" class="detail">Region, quota, compliance | Infrastructure as code | Managed identity | Telemetry, recovery, owner | Revisit trigger</text>
 </svg>

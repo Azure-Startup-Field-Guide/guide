@@ -15,6 +15,7 @@ Every decision page must include:
 ## Available decisions
 
 - [Azure Container Apps or Azure Kubernetes Service?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/container-apps-vs-aks)
+- [Managed platform or virtual machines?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/paas-vs-iaas)
 - [Bicep or Terraform?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/bicep-vs-terraform)
 - [Relational or NoSQL data?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/relational-vs-nosql)
 - [Single-tenant or multitenant SaaS?](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/decisions/single-tenant-vs-multitenant)

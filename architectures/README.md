@@ -9,6 +9,7 @@ Azure Well-Architected Framework.
 | Pattern | Start here when |
 | --- | --- |
 | [Managed web application](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/architectures/managed-web-app) | A web product needs a small production baseline |
+| [Virtual-machine workload](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/architectures/vm-workload) | Guest OS or specialized compute requirements justify IaaS |
 | [Asynchronous AI application](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/architectures/async-ai-app) | Model work is slow, bursty, or should not block requests |
 | [Multi-region evolution](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/architectures/multi-region-evolution) | Recovery targets justify moving beyond one region |
 

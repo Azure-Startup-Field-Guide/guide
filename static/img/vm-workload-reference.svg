@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Virtual-machine workload reference architecture</title>
+  <desc id="desc">Users reach a workload entry point that distributes traffic to virtual machines across availability zones. The virtual machines use managed identity for Key Vault. A protected management path provides administrative access. Azure Monitor and backup services receive telemetry and recovery data.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+    </marker>
+  </defs>
+  <text x="340" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">IaaS is a deliberate operating model</text>
+
+  <rect x="20" y="64" width="105" height="58" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="72" y="88" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d5a1b">Users</text>
+  <text x="72" y="106" text-anchor="middle" font-size="9" fill="#555">Application traffic</text>
+
+  <rect x="160" y="64" width="145" height="58" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="232" y="88" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">Workload entry</text>
+  <text x="232" y="106" text-anchor="middle" font-size="9" fill="#555">Routing and health probes</text>
+  <line x1="125" y1="93" x2="160" y2="93" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="340" y="50" width="320" height="214" rx="12" fill="#f5f5f5" stroke="#666" stroke-width="1.5"/>
+  <text x="500" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Virtual network workload boundary</text>
+
+  <rect x="365" y="96" width="125" height="82" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="427" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a5900">Zone 1 instance</text>
+  <text x="427" y="140" text-anchor="middle" font-size="9" fill="#555">VM or scale-set member</text>
+  <text x="427" y="158" text-anchor="middle" font-size="9" fill="#555">Managed identity</text>
+
+  <rect x="510" y="96" width="125" height="82" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="572" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a5900">Zone 2 instance</text>
+  <text x="572" y="140" text-anchor="middle" font-size="9" fill="#555">VM or scale-set member</text>
+  <text x="572" y="158" text-anchor="middle" font-size="9" fill="#555">Managed identity</text>
+
+  <line x1="305" y1="93" x2="365" y2="126" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="305" y1="93" x2="510" y2="126" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="405" y="204" width="190" height="42" rx="6" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+  <text x="500" y="222" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a2758">Key Vault and Azure dependencies</text>
+  <text x="500" y="237" text-anchor="middle" font-size="8.5" fill="#555">Access through workload identity</text>
+  <line x1="427" y1="178" x2="465" y2="204" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="572" y1="178" x2="535" y2="204" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="20" y="190" width="250" height="58" rx="8" fill="#f8cecc" stroke="#b85450" stroke-width="2"/>
+  <text x="145" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#7d2724">Protected management path</text>
+  <text x="145" y="233" text-anchor="middle" font-size="9" fill="#555">Separate administration from app traffic</text>
+  <line x1="270" y1="219" x2="365" y2="160" stroke="#b85450" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <rect x="70" y="316" width="240" height="66" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="190" y="341" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">Azure Monitor</text>
+  <text x="190" y="360" text-anchor="middle" font-size="9" fill="#555">Guest, platform, health, and app telemetry</text>
+
+  <rect x="370" y="316" width="240" height="66" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text x="490" y="341" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a2758">Backup and recovery</text>
+  <text x="490" y="360" text-anchor="middle" font-size="9" fill="#555">Protected state and tested restore</text>
+
+  <line x1="427" y1="178" x2="230" y2="316" stroke="#666" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <line x1="572" y1="178" x2="520" y2="316" stroke="#666" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <text x="340" y="414" text-anchor="middle" font-size="9" fill="#555">Verify zone and feature support for the selected region, VM size, operating system, and workload.</text>
+</svg>

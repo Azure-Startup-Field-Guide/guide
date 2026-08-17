@@ -3,6 +3,15 @@
 This project uses tagged releases for meaningful guide milestones. Small source,
 wording, and link-maintenance changes can ship between releases.
 
+## v1.0.1 - 2026-08-17
+
+Added the missing IaaS path to the startup foundation:
+
+- Virtual Machines and Virtual Machine Scale Sets in the compute decision tree;
+- a managed-platform-versus-VM decision record;
+- a startup-sized IaaS operating baseline; and
+- a source-backed virtual-machine reference architecture.
+
 ## v1.0.0 - 2026-08-17
 
 Complete journey-first field guide release.
