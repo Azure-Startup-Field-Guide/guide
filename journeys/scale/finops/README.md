@@ -51,7 +51,7 @@ architecture decisions.
 
 ## Official sources
 
-- [FinOps Framework overview](https://learn.microsoft.com/en-us/cloud-computing/finops/framework/)
+- [FinOps Framework overview](https://learn.microsoft.com/en-us/cloud-computing/finops/framework/finops-framework)
 - [FinOps on Azure](https://learn.microsoft.com/en-us/cloud-computing/finops/)
 - [Cost Management best practices](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-best-practices)
 - [Well-Architected cost optimization](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/)

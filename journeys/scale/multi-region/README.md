@@ -47,7 +47,7 @@ availability, or the product's dependency graph changes.
 
 ## Official sources
 
-- [Mission-critical architecture design](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-architecture-design)
+- [Mission-critical architecture on Azure](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
 - [Recommendations for regions and availability zones](https://learn.microsoft.com/en-us/azure/well-architected/reliability/regions-availability-zones)
 - [Disaster recovery strategy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery)
 - [Multiregion web application pattern](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/multi-region)

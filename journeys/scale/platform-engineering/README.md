@@ -55,9 +55,9 @@ cannot operate.
 ## Official sources
 
 - [What is platform engineering?](https://learn.microsoft.com/en-us/platform-engineering/what-is-platform-engineering)
-- [Platform engineering capability model](https://learn.microsoft.com/en-us/platform-engineering/capability-model)
+- [Platform engineering capability model](https://learn.microsoft.com/en-us/platform-engineering/platform-engineering-capability-model)
 - [Azure landing zones](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
 - [Azure Verified Modules](https://aka.ms/AVM)
-- [Migrate from Azure Blueprints](https://learn.microsoft.com/en-us/azure/governance/blueprints/deprecation)
+- [Migrate from Azure Blueprints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/migrate-blueprint)
 
 [Back to scale and enterprise readiness](https://github.com/Azure-Startup-Field-Guide/guide/tree/main/journeys/scale)
